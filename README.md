@@ -1,5 +1,11 @@
 # GraphDashboard
 
+
+The project is an Angular app that reads in the json data and displays the timeline data as multiple graphs.
+
+<img width="1411" alt="image" src="https://github.com/user-attachments/assets/e3f31e8d-0414-42ce-a751-3cdee063eea3" />
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
 ## Development server
