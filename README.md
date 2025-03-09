@@ -13,6 +13,7 @@ Potential Improvements:
 - Enhancements in styling and theming.
 - Improvements to graph visuals and interactivity.
 - Add filtering options or grouping of graphs based on specific criteria.
+- Centralise some styles like padding variables and screen widths (e.g what is the mobile width)
 
 
 
