@@ -1,7 +1,16 @@
 # GraphDashboard
 
+Descriptions and URLs are presented inside a PrimeNG accordion. The date field is excluded, as it didn’t provide significant value to the graph without further context.
 
-The project is an Angular app that reads in the json data and displays the timeline data as multiple graphs.
+I chose Vega-Lite because it’s a tool I’m familiar with, and it enables me to define graphs in a JSON-like format. This approach simplifies making changes to the graph structure.
+
+Regarding architecture, the project uses separate services for fetching raw graph data and transforming it into a usable format for the app. This separation allows for easy unit testing and isolates data preparation from the component logic.
+
+Potential Improvements:
+Switch from Observables to Signals in the component for better performance (though not fully supported in Angular yet).
+Enhancements in styling and theming.
+Improvements to graph visuals and interactivity.
+Add filtering options or grouping of graphs based on specific criteria.
 
 <img width="1411" alt="image" src="https://github.com/user-attachments/assets/e3f31e8d-0414-42ce-a751-3cdee063eea3" />
 
