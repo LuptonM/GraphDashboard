@@ -4,6 +4,8 @@ Descriptions and URLs are presented inside a PrimeNG accordion. The date field i
 
 I chose Vega-Lite because it’s a tool I’m familiar with, and it enables me to define graphs in a JSON-like format. This approach simplifies making changes to the graph structure.
 
+The graph sizes are repsonsive and I used flex wrap to display a different number of graphs per row dependant on the screen width (media queries)
+
 Regarding architecture, the project uses separate services for fetching raw graph data and transforming it into a usable format for the app. This separation allows for easy unit testing and isolates data preparation from the component logic.
 
 Potential Improvements:
