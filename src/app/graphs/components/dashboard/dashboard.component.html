@@ -1,0 +1,21 @@
+<div class="chart-container">
+  <div 
+    *ngFor="let graph of graphList$ | async; trackBy: trackById" 
+    class="chart-item"
+  >
+    <app-graph
+      [graphSpec]="graph.graphSpec"
+      [data]=graph.graphData
+      [dataId]="graph.id">
+    </app-graph>
+
+    <p-accordion>
+      <p-accordionTab header="Description">
+        <div class="accordion-content">
+          <p> <b>Source:</b> {{ graph.url }}</p>
+          <p>{{ graph.description }}</p>
+        </div>
+      </p-accordionTab>
+    </p-accordion>
+  </div>
+</div>
